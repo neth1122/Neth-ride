@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neth Ride | Dispatch Service in Akure</title>
+  <meta name="description" content="Fast and reliable dispatch service in Akure. Same-day delivery starting from ₦1,000." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer" />
+
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Fast & Reliable Dispatch Service in Akure</h1>
+    <p>Same-day delivery • Trained riders • Affordable rates</p>
+
+    <div class="cta-group">
+      <a href="https://wa.me/234XXXXXXXXX" class="btn btn-primary whatsapp-btn">Book on WhatsApp</a>
+      <a href="tel:090XXXXXXX" class="btn btn-outline-light">Call Dispatch</a>
+    </div>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+  🌙
+</button>
+
+    <!-- Bubbles -->
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+    <div class="bubble bubble-5"></div>
+    <div class="bubble bubble-6"></div>
+    <div class="bubble bubble-7"></div>
+    <div class="bubble bubble-8"></div>
+    <div class="bubble bubble-9"></div>
+    <div class="bubble bubble-10"></div>
+
+  </div>
+</header>
+
+<div id="imageCarousel" class="carousel slide mb-5" data-bs-ride="carousel" data-bs-interval="3700">
+
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <!-- Slide 1: Rider -->
+    <div class="carousel-item active">
+      <img
+        src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1600&auto=format&fit=crop"
+        class="d-block w-100"
+        alt="Dispatch rider in Akure"
+      >
+    </div>
+
+    <!-- Slide 2: Rider + WhatsApp phone mock -->
+    <div class="carousel-item">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS249wcrAo6eQsz9KeyHom_tB1mNHKAdlCSqA&s"
+        class="d-block w-100"
+        alt="Delivery rider using WhatsApp"
+      >
+    </div>
+
+  </div>
+</div>
+
+
+<section class="section trust">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2>Trusted Local Dispatch in Akure</h2>
+      <p class="text-muted">
+        Neth Ride is built for speed, safety, and reliability — powered by trained riders who know Akure.
+      </p>
+    </div>
+
+    <div class="row text-center g-4">
+
+      <div class="col-md-4">
+        <div class="trust-card">
+          <i class="fa-solid fa-clock trust-icon"></i>
+          <h6>Same-day delivery</h6>
+          <p>Fast turnaround within Akure.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+      <div class="trust-card">
+        <i class="fa-solid fa-motorcycle trust-icon"></i>
+        <h6>
+          <span class="metric" data-value="1200">Fast dispatch</span>
+        </h6>
+        <p>Orders completed across Akure.</p>
+      </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="trust-card">
+          <i class="fa-solid fa-location-crosshairs trust-icon"></i>
+          <h6>Akure coverage</h6>
+          <p>Serving estates & busy routes.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section how-it-works">
+  <div class="container">
+    <h2 class="text-center mb-5">How It Works</h2>
+
+    <div class="row g-4 step-wrapper">
+
+      <div class="col-md-4">
+        <div class="step-card">
+          <span class="step-number"></span>
+          <i class="fa-brands fa-whatsapp step-icon"></i>
+          <h5>Request Pickup</h5>
+          <p>Send pickup and drop-off details via WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="step-card">
+          <span class="step-number"></span>
+          <i class="fa-solid fa-motorcycle step-icon"></i>
+          <h5>Rider Dispatched</h5>
+          <p>A trained rider is assigned to your order immediately.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="step-card">
+          <span class="step-number"></span>
+          <i class="fa-solid fa-box step-icon"></i>
+          <h5>Delivered</h5>
+          <p>Your item is delivered safely and confirmed.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- PRICING START -->
+<section class="section pricing">
+  <div class="container">
+
+    <div class="pricing-header text-center mb-5">
+      <span class="pricing-badge">
+        <i class="fa-solid fa-shield-halved"></i>
+        Transparent pricing
+      </span>
+      <h2>Simple, Fair Pricing</h2>
+      <p class="pricing-sub">
+        Pay only for distance and urgency. No hidden fees.
+      </p>
+    </div>
+
+    <div class="pricing-card mx-auto">
+
+      <div class="pricing-main">
+        <span class="currency">₦</span>
+        <span class="price">1,000</span>
+        <span class="price-note">starting from</span>
+      </div>
+
+      <p class="pricing-desc">
+        Standard delivery within Akure.
+        Final cost depends on distance and delivery urgency.
+      </p>
+
+      <div class="pricing-features">
+        <div class="feature">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Akure city routes</span>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-clock"></i>
+          <span>Same-day delivery</span>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-bolt"></i>
+          <span>Express option available</span>
+        </div>
+      </div>
+
+      <a href="https://wa.me/234XXXXXXXXXX" class="btn pricing-cta">
+        Get instant quote
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+<!-- PRICING END -->
+
+
+
+
+<section class="section location">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-md-5">
+        <h2>Service Area</h2>
+        <p>
+          Neth Ride operates within Akure and nearby areas,
+          ensuring fast pickup and delivery.
+        </p>
+
+      <div class="location-grid">
+
+        <div class="location-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Alagbaka</span>
+        </div>
+
+        <div class="location-card">
+          <i class="fa-solid fa-building"></i>
+          <span>Ijapo Estate</span>
+        </div>
+
+        <div class="location-card">
+          <i class="fa-solid fa-house"></i>
+          <span>Oke-Aro</span>
+        </div>
+
+        <div class="location-card">
+          <i class="fa-solid fa-map"></i>
+          <span>Akure Environs</span>
+        </div>
+
+      </div>
+
+      </div>
+
+      <div class="col-md-7">
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps?q=Akure+Ondo+State&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- TESTIMONIALS START -->
+<section class="section testimonials">
+  <div class="container text-center">
+    <h2>What Customers Say</h2>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <p>"Fastest dispatch in Akure. Rider was polite."</p>
+          <strong>— Sarah A.</strong>
+        </div>
+
+        <div class="carousel-item">
+          <p>"Affordable and reliable. 10/10."</p>
+          <strong>— Daniel O.</strong>
+        </div>
+
+        <div class="carousel-item">
+          <p>"Saved my business today! Delivered my package to Alagbaka in record time."</p>
+          <strong>— Chioma E.</strong>
+        </div>
+
+        <div class="carousel-item">
+          <p>"Very professional riders. My item arrived safe and sound."</p>
+          <strong>— Tunde B.</strong>
+        </div>
+
+        <div class="carousel-item">
+          <p>"The WhatsApp booking is so easy. Highly recommend!"</p>
+          <strong>— Blessing A.</strong>
+        </div>
+
+      </div>
+
+      <button class="btn btn-outline-brand mt-4 next" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        Next →
+      </button>
+    </div>
+  </div>
+</section>
+<!-- TESTIMONIALS END -->
+
+
+
+<!-- FAQ START -->
+<section class="section faq">
+  <div class="container">
+    <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+
+    <div class="faq-list">
+
+      <details>
+        <summary>
+          <i class="fa-solid fa-motorcycle"></i>
+          How fast is Neth Ride delivery in Akure?
+        </summary>
+        <p>
+          Most deliveries within Akure are completed between
+          <strong>20–45 minutes</strong>, depending on distance and traffic.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <i class="fa-solid fa-location-dot"></i>
+          Which areas do you cover in Akure?
+        </summary>
+        <p>
+          We currently operate in Alagbaka, Oke-Aro, FUTA, Ijapo Estate,
+          Isinkan, and nearby locations within Akure.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <i class="fa-solid fa-box"></i>
+          What items can I send?
+        </summary>
+        <p>
+          Documents, parcels, food, groceries, and small packages.
+          Illegal or dangerous items are strictly not allowed.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <i class="fa-solid fa-naira-sign"></i>
+          How much does delivery cost?
+        </summary>
+        <p>
+          Pricing depends on distance. You’ll receive a quote instantly
+          on WhatsApp before confirmation.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          <i class="fa-brands fa-whatsapp"></i>
+          How do I place an order?
+        </summary>
+        <p>
+          Simply click the WhatsApp button, send your pickup and drop-off
+          details, and a rider will be assigned immediately.
+        </p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ END -->
+
+
+
+<!-- CTA -->
+<section class="section cta-final">
+  <div class="container">
+    <h2>Need something delivered now?</h2>
+    <a href="https://wa.me/234XXXXXXXXX" class="btn btn-primary btn-lg whatsapp-btn">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="socials">
+    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+  </div>
+
+  <p>© Neth Ride • Akure</p>
+</footer>
+
+
+
+
+<a href="https://wa.me/234XXXXXXXXX"
+   class="whatsapp-float"
+   aria-label="Chat with Neth Ride on WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor">
+    <path d="M19.11 17.44c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.2-1.35-.82-.73-1.37-1.63-1.53-1.9-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.99 2.65 1.13 2.84.14.18 1.95 2.98 4.73 4.18.66.28 1.18.45 1.58.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
+    <path d="M16.02 2.67c-7.36 0-13.35 5.99-13.35 13.35 0 2.35.62 4.64 1.79 6.65L2 30l7.57-2.36a13.29 13.29 0 006.45 1.66h.01c7.36 0 13.35-5.99 13.35-13.35S23.38 2.67 16.02 2.67z"/>
+  </svg>
+</a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How fast is Neth Ride delivery in Akure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most deliveries within Akure are completed within 20–45 minutes depending on distance and traffic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which areas do you cover in Akure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neth Ride operates in Alagbaka, Oke-Aro, FUTA, Ijapo Estate, Isinkan, and nearby areas in Akure."
+      }
+    }
+  ]
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.from(".trust-card", {
+    scrollTrigger: {
+      trigger: ".trust",
+      start: "top 75%",
+    },
+    opacity: 0,
+    y: 40,
+    duration: 0.8,
+    stagger: 0.2,
+    ease: "power3.out"
+  });
+</script>
+
+<script>
+  const carousel = document.querySelector('#imageCarousel');
+
+  carousel.addEventListener('slid.bs.carousel', () => {
+    gsap.fromTo(
+      '#imageCarousel .carousel-item.active img',
+      { opacity: 0.6, scale: 1.03 },
+      { opacity: 1, scale: 1, duration: 0.6, ease: 'power2.out' }
+    );
+  });
+</script>
+
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
