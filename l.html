@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ProposePay - Send Proposals. Clear Agreements. Build Trust.</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#6D28D9", // Using a rich purple based on the brand
+                        "primary-dark": "#5B21B6",
+                        "background-light": "#F9FAFB",
+                        "background-dark": "#0F172A",
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#1E293B",
+                        accent: "#FBBF24", // Yellow accent for CTA
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                    },
+                    boxShadow: {
+                        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+                    }
+                },
+            },
+        };
+    </script>
+<style>.glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .dark .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-100 font-sans antialiased transition-colors duration-300">
+<nav class="fixed w-full z-50 transition-all duration-300 glass-panel border-b border-gray-200 dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-20">
+<div class="flex items-center">
+<a class="flex items-center gap-2" href="#">
+<span class="material-icons-round text-primary text-3xl">pie_chart</span>
+<span class="font-bold text-xl tracking-tight text-gray-900 dark:text-white">ProposePay</span>
+</a>
+</div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-white transition-colors" href="#">Home</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-white transition-colors" href="#">About</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-white transition-colors" href="#">Features</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-white transition-colors" href="#">Pricing</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-white transition-colors" href="#">FAQ</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-white px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-full transition-all">Log in</button>
+<button class="text-sm font-medium bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-full transition-all shadow-lg shadow-primary/30">Get Started Free</button>
+<button class="p-2 text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-white transition-colors" onclick="document.documentElement.classList.toggle('dark')">
+<span class="material-icons-round text-xl dark:hidden">dark_mode</span>
+<span class="material-icons-round text-xl hidden dark:block">light_mode</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<section class="pt-32 pb-16 lg:pt-40 lg:pb-24 relative overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-b from-purple-100/50 to-transparent dark:from-purple-900/20 dark:to-transparent -z-10 pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-6 leading-tight">
+                Send Proposals. <br/>
+                Clear Agreements. <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400">Build Trust.</span>
+</h1>
+<p class="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-10 max-w-2xl mx-auto">
+                ProposePay helps freelancers and clients start projects the right way — with clear, structured proposals that build trust.
+            </p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-primary rounded-full hover:bg-primary-dark shadow-lg shadow-purple-500/30 transition-all hover:-translate-y-0.5">
+                    Start Free Today
+                </button>
+<button class="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-gray-700 bg-white dark:bg-surface-dark dark:text-gray-200 border border-gray-200 dark:border-gray-700 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all hover:-translate-y-0.5">
+                    See Features
+                </button>
+</div>
+</div>
+</section>
+<section class="py-12 relative">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900/30 text-primary dark:text-purple-300 text-xs font-bold uppercase tracking-wider mb-4 border border-purple-200 dark:border-purple-800">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+                    Quick Demo
+                </div>
+<h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
+                    See how ProposePay works in under 90 seconds
+                </h2>
+</div>
+<div class="relative group mx-auto">
+<div class="absolute -inset-1 bg-gradient-to-r from-primary to-purple-400 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-900 border-4 border-white/50 dark:border-gray-700/50 backdrop-blur-sm">
+<div class="h-10 bg-gray-100 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 flex items-center px-4 space-x-2">
+<div class="w-3 h-3 rounded-full bg-red-400"></div>
+<div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+<div class="w-3 h-3 rounded-full bg-green-400"></div>
+<div class="flex-1 ml-4 bg-white dark:bg-gray-900 h-6 rounded-md border border-gray-200 dark:border-gray-700 mx-auto max-w-sm opacity-50"></div>
+</div>
+<div class="aspect-video w-full relative bg-gray-800 flex items-center justify-center overflow-hidden">
+<img alt="Dashboard Abstract" class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxDn6Q0KmPkTWIkaS-yBxQ7LlzxC-g_dTY1BefegDJD1cBQ7n0vgt1-uFKHNBDbH9i_Pdxh-WSunFhdIxNYoVDx_vQ2teChH_vaJut2mP_cRN5UHaCCOGNb8mhjY6muDC0gF109cjAGBWj8aEK3g5U19YMxQHN30CPPAuG_P6npSWPwOS7ddhrgdO6QQ11dtIworeLsuctMhLbFghIqoRz6b9xfNLYYWJ3IymZS65iiy7I83Ajj03HyNjFDLeb5csH72k_sfNtvgNJ"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<button class="relative w-20 h-20 flex items-center justify-center group/btn focus:outline-none">
+<span class="absolute inset-0 w-full h-full bg-white/30 dark:bg-white/10 rounded-full animate-ping opacity-75"></span>
+<div class="relative w-16 h-16 bg-white dark:bg-primary rounded-full flex items-center justify-center shadow-lg backdrop-blur-md transform transition-transform group-hover/btn:scale-110">
+<span class="material-icons-round text-primary dark:text-white text-4xl ml-1">play_arrow</span>
+</div>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white dark:bg-surface-dark transition-colors duration-300">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 dark:text-white">Why choose ProposePay?</h2>
+<p class="mt-4 text-gray-600 dark:text-gray-400">We take the pain out of doing business online.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-6 rounded-2xl bg-gray-50 dark:bg-background-dark border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mb-4">
+<span class="material-icons-round text-blue-600 dark:text-blue-400">description</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Smart Proposals</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                        Create professional proposals with your branding, milestones, and pricing in minutes.
+                    </p>
+</div>
+<div class="p-6 rounded-2xl bg-gray-50 dark:bg-background-dark border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-4">
+<span class="material-icons-round text-primary dark:text-purple-400">shield</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Collaborative Review</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                        Clients can view, comment, and approve your proposals — no messy threads or confusion.
+                    </p>
+</div>
+<div class="p-6 rounded-2xl bg-gray-50 dark:bg-background-dark border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center mb-4">
+<span class="material-icons-round text-indigo-600 dark:text-indigo-400">thumb_up</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Clear Agreements</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                        Every proposal ends with mutual understanding — no stress, no ambiguity.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-background-light dark:bg-background-dark">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-12">Simple, Transparent Pricing</h2>
+<div class="max-w-md mx-auto bg-white dark:bg-surface-dark rounded-2xl shadow-xl border-2 border-primary/20 dark:border-primary/40 overflow-hidden relative">
+<div class="absolute top-0 w-full h-2 bg-primary"></div>
+<div class="p-8">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Starter</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400 mb-6">For freelancers just starting out</p>
+<div class="flex items-baseline justify-center mb-6">
+<span class="text-5xl font-extrabold text-gray-900 dark:text-white">$0</span>
+<span class="text-gray-500 dark:text-gray-400 ml-1">/mo</span>
+</div>
+<ul class="space-y-3 mb-8 text-left max-w-xs mx-auto">
+<li class="flex items-center text-gray-600 dark:text-gray-300">
+<span class="material-icons-round text-green-500 text-sm mr-2">check</span>
+                            Unlimited Proposals
+                        </li>
+<li class="flex items-center text-gray-600 dark:text-gray-300">
+<span class="material-icons-round text-green-500 text-sm mr-2">check</span>
+                            Real-time user count
+                        </li>
+<li class="flex items-center text-gray-600 dark:text-gray-300">
+<span class="material-icons-round text-green-500 text-sm mr-2">check</span>
+                            Basic Support
+                        </li>
+</ul>
+<button class="w-full py-3 px-4 border-2 border-primary text-primary dark:text-white dark:border-purple-500 font-bold rounded-full hover:bg-primary hover:text-white transition-colors">
+                        Start Free
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white dark:bg-surface-dark">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<span class="inline-block py-1 px-3 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-300 text-xs font-semibold uppercase tracking-wide mb-3">3-step flow</span>
+<h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">How it works</h2>
+<p class="text-gray-600 dark:text-gray-400">From proposal to payout — transparent and fast.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-6 rounded-xl border border-gray-100 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/50">
+<div class="w-10 h-10 mb-4 text-blue-500 dark:text-blue-400">
+<span class="material-icons-round text-3xl">send</span>
+</div>
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Send proposal</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Create beautiful, clear proposals that outline your offer, price, and timeline.</p>
+</div>
+<div class="p-6 rounded-xl border border-gray-100 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/50">
+<div class="w-10 h-10 mb-4 text-green-500 dark:text-green-400">
+<span class="material-icons-round text-3xl">verified_user</span>
+</div>
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Secure approval</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Clients review and approve proposals directly — simple and professional.</p>
+</div>
+<div class="p-6 rounded-xl border border-gray-100 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/50">
+<div class="w-10 h-10 mb-4 text-yellow-500 dark:text-yellow-400">
+<span class="material-icons-round text-3xl">payments</span>
+</div>
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Deliver work &amp; finalize</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Share your deliverables and wrap up the project. Payment handled directly.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-purple-50 dark:bg-[#2e1065]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Why Choose Us?</h2>
+<p class="text-gray-600 dark:text-purple-200">Built for freelancers, agencies, and business owners who hate chasing payments.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-sm border border-purple-100 dark:border-purple-900">
+<span class="material-icons-round text-blue-500 text-3xl mb-4">trending_up</span>
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Grow Faster</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Send polished proposals in minutes and close deals 3x faster with auto-followups.</p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-sm border border-purple-100 dark:border-purple-900">
+<span class="material-icons-round text-green-500 text-3xl mb-4">security</span>
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Trust &amp; Security</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Build confidence with structured proposals and clear expectations. No hidden steps.</p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-sm border border-purple-100 dark:border-purple-900">
+<span class="material-icons-round text-yellow-500 text-3xl mb-4">bolt</span>
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Automated Workflow</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">E-signatures and secure payment options reduce manual steps.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-background-light dark:bg-background-dark">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 dark:text-white">Loved by Freelancers &amp; Clients</h2>
+<p class="mt-2 text-gray-600 dark:text-gray-400">Real feedback from people who got paid faster and safer.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+<div class="flex items-center mb-4">
+<img alt="User" class="w-10 h-10 rounded-full mr-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT9Z2AtIYK4doV42Ex0VnWZqcg90iniiHGdVi7gaYI7sbZUaAwoo4FJvAcl2QavR8657SiLpdzaIIkUecSWsZ26PLi9pRsEoZEN3shVABX_c1INvH1ekroI-hOyPc80JoIH1bInkLfHym_30imU-A-8m4IJA95Ac7aLQ9euuGvjtQu1WQYfZG9JeZwGkQVhkiAINMe4GFgJAT32PlrU0vNTSRALfklw6o4jyj_ZSHBU9sf2lJsmWgxI8PuhwaPcUoVO85DDfF7EJ29"/>
+<div>
+<h4 class="text-sm font-bold text-gray-900 dark:text-white">MOF-T Designs</h4>
+<p class="text-xs text-gray-500">@Moft_Designs</p>
+</div>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300">"This platform saved me from losing a client. I still got the gig!"</p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+<div class="flex items-center mb-4">
+<img alt="User" class="w-10 h-10 rounded-full mr-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgVrVhJKMYO2kHfVM-vEBFyaNuKtgyJ_NgExKtsS7frx4YR9JHcWNWJluNEPmWTd1KCrwVg2TIKfkbPhc06KWG50I7Q-qN5DIWGEHWYscs9nUAmklnKjFm3kVsL1EsNewmT56_cl9MGXy_v48WPDBYovBZmuXRkingU7cWj0WReJg3klSAnvJngzIjhOCrZmiSbV9mt6MXKEmdQ9c-nkWK7Tv-5nzsxX1XtvTqsgd6hQgKXlS4WtxQRNptuiVglUdT8LKa_lVHca2-"/>
+<div>
+<h4 class="text-sm font-bold text-gray-900 dark:text-white">Chidera</h4>
+<p class="text-xs text-gray-500">@EmmanuelNdema</p>
+</div>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300">"Sending proposals takes 5 minutes now. Clients love the clean look."</p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+<div class="flex items-center mb-4">
+<img alt="User" class="w-10 h-10 rounded-full mr-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMRynPDoSAy3h76r0tB3B4MEyW1tRY93KpJkBDbnyslFVh4U3IetqbnndfgOuFXgLM4x2ymiacxyjV18x_hnImuq244WSlOl16Eh_4ys8hKE8TaGj6VjIKA4H6WiiiM_PRJFif6TcNA0dyMan2gakyiC6cjQUaWkQWCOY4cM8rDyO2_zeb-TZS5RrnAtmhH7VI0ZLNHGP7go15M9jpnVOVairo7ugir0j_uXjU_Q5oGIF9KVPnDpi2G3e9rJR6ME9gUC_QlsbyBgjh"/>
+<div>
+<h4 class="text-sm font-bold text-gray-900 dark:text-white">CodeKage</h4>
+<p class="text-xs text-gray-500">@lugmanola80</p>
+</div>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300">"Clear proposals and approval flow mean my clients understand everything upfront."</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 relative overflow-hidden bg-primary dark:bg-purple-900">
+<div class="absolute top-0 left-0 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+<div class="absolute top-0 right-0 w-64 h-64 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+<div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+<h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to get paid without the drama?</h2>
+<p class="text-purple-100 mb-8 max-w-2xl mx-auto">Start free today and create clear, client-ready proposals in minutes.</p>
+<button class="inline-flex items-center justify-center bg-accent text-gray-900 font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-yellow-300 transition-colors transform hover:scale-105">
+<span class="material-icons-round mr-2">rocket_launch</span>
+                Start Free Now
+            </button>
+<p class="mt-4 text-xs text-purple-200 opacity-70">No credit card required • Cancel anytime</p>
+</div>
+</section>
+<section class="py-20 bg-background-light dark:bg-background-dark">
+<div class="max-w-3xl mx-auto px-4 sm:px-6">
+<h2 class="text-2xl font-bold text-center text-gray-900 dark:text-white mb-2">Frequently Asked Questions</h2>
+<p class="text-center text-gray-500 dark:text-gray-400 mb-10 text-sm">Got questions? We've got answers.</p>
+<div class="space-y-4">
+<div class="bg-white dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 dark:text-gray-200 text-sm">
+                        How are payments handled?
+                        <span class="material-icons-round text-gray-400">add</span>
+</button>
+</div>
+<div class="bg-white dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 dark:text-gray-200 text-sm">
+                        Can I use ProposePay for free?
+                        <span class="material-icons-round text-gray-400">add</span>
+</button>
+</div>
+<div class="bg-white dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 dark:text-gray-200 text-sm">
+                        How do I get paid?
+                        <span class="material-icons-round text-gray-400">add</span>
+</button>
+</div>
+<div class="bg-white dark:bg-surface-dark p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+<button class="flex justify-between items-center w-full text-left font-semibold text-gray-800 dark:text-gray-200 text-sm">
+                        What are your fees?
+                        <span class="material-icons-round text-gray-400">add</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-[#1a1025] dark:bg-[#0b0f19] text-gray-300 py-12 border-t border-gray-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-1">
+<a class="flex items-center gap-2 mb-4" href="#">
+<span class="material-icons-round text-primary text-2xl">pie_chart</span>
+<span class="font-bold text-white text-lg tracking-tight">ProposePay</span>
+</a>
+<p class="text-xs text-gray-500 mb-6 leading-relaxed">
+                    Professional proposal creation for freelancers and clients. Start projects with clarity and confidence.
+                </p>
+<div class="flex space-x-4">
+<a class="text-gray-500 hover:text-white" href="#"><i class="material-icons-round text-sm">close</i></a> 
+<a class="text-gray-500 hover:text-white" href="#"><i class="material-icons-round text-sm">work</i></a>
+<a class="text-gray-500 hover:text-white" href="#"><i class="material-icons-round text-sm">camera_alt</i></a>
+</div>
+</div>
+<div class="col-span-1">
+<h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wide">Quick Links</h4>
+<ul class="space-y-2 text-sm text-gray-500">
+<li><a class="hover:text-primary transition-colors" href="#">Features</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Pricing</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQ</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms &amp; Privacy</a></li>
+</ul>
+</div>
+<div class="col-span-1 md:col-span-2">
+<h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wide">Stay in the Loop</h4>
+<form class="flex flex-col sm:flex-row gap-2">
+<input class="bg-gray-800 border border-gray-700 text-white px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary w-full text-sm" placeholder="Enter your email . . ." type="email"/>
+<button class="bg-[#4C1D95] hover:bg-primary text-white px-6 py-2 rounded-lg text-sm font-bold transition-colors">Subscribe</button>
+</form>
+<p class="text-xs text-gray-600 mt-2">Get updates, early access &amp; offers.</p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-600">
+            © ProposePay. All rights reserved.
+        </div>
+</footer>
+<div class="fixed bottom-6 left-6 z-50">
+<button class="flex items-center bg-accent text-gray-900 font-bold px-4 py-2 rounded-full shadow-lg hover:scale-105 transition-transform">
+<span class="material-icons-round mr-2 text-sm">handshake</span>
+            Support Us
+        </button>
+</div>
+<div class="fixed bottom-6 right-6 z-50">
+<button class="w-12 h-12 bg-gray-800 dark:bg-purple-900 text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<span class="material-icons-round">mail</span>
+</button>
+</div>
+
+</body></html>
